@@ -99,10 +99,6 @@ docker run -p 8501:8501 ibrahimsabouh/news-sentiment-analysis
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-## License
-
-[MIT License](LICENSE)
-
 ## Author
 
 Ibrahim Sabouh
