@@ -79,8 +79,7 @@ python model/main.py
 
 This will:
 - Load and preprocess the dataset
-- Build a BiLSTM neural network
-- Train the model
+- Build and Train the neural network model
 - Save the model and tokenizer
 
 ## Docker Image
