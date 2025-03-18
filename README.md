@@ -1,6 +1,6 @@
 # News Sentiment Analysis
 
-A machine learning application that analyzes the sentiment of news text using a BiLSTM neural network model.
+A machine learning application that analyzes the sentiment of news text using a keras Tensorflow model.
 
 ## Features
 
