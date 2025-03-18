@@ -17,6 +17,7 @@ News-Sentiment-Analysis/
 │   └── app.py                # Streamlit application
 ├── model/                    # Model training and artifacts
 │   ├── main.py               # Training script
+│   ├── news.csv              # CSV Dataset
 │   ├── sentiment_model.h5    # Trained model
 │   └── tokenizer.pickle      # Fitted tokenizer
 ├── Dockerfile                # Docker configuration
