@@ -13,20 +13,17 @@ A machine learning application that analyzes the sentiment of news text using a 
 
 ```
 News-Sentiment-Analysis/
-├── app/                   # Web application
-│   ├── static/            # CSS and static files
-│   ├── templates/         # HTML templates (if needed)
-│   ├── app.py             # Streamlit application
-│   └── requirements.txt   # App-specific dependencies
-├── model/                 # Model training and artifacts
-│   ├── main.py            # Training script
-│   ├── sentiment_model.h5 # Trained model
-│   └── tokenizer.pickle   # Fitted tokenizer
-├── Dockerfile             # Docker configuration
-├── .dockerignore          # Files to exclude from Docker
-├── .gitignore             # Files to exclude from Git
-├── README.md              # Project documentation
-└── requirements.txt       # Project dependencies
+├── app/                      # Web application
+│   └── app.py                # Streamlit application
+├── model/                    # Model training and artifacts
+│   ├── main.py               # Training script
+│   ├── sentiment_model.h5    # Trained model
+│   └── tokenizer.pickle      # Fitted tokenizer
+├── Dockerfile                # Docker configuration
+├── .dockerignore             # Files to exclude from Docker
+├── .gitignore                # Files to exclude from Git
+├── README.md                 # Project documentation
+└── requirements.txt          # Project dependencies
 ```
 
 ## Installation
@@ -35,7 +32,7 @@ News-Sentiment-Analysis/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/News-Sentiment-Analysis.git
+   git clone https://github.com/ibrahimsabouh/News-Sentiment-Analysis.git
    cd News-Sentiment-Analysis
    ```
 
@@ -90,8 +87,8 @@ This will:
 The application is available as a Docker image on DockerHub:
 
 ```
-docker pull yourusername/news-sentiment-analysis
-docker run -p 8501:8501 yourusername/news-sentiment-analysis
+docker pull ibrahimsabouh/news-sentiment-analysis
+docker run -p 8501:8501 ibrahimsabouh/news-sentiment-analysis
 ```
 
 ## Contributing
