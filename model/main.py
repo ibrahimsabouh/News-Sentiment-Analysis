@@ -22,7 +22,7 @@ nltk.download('wordnet')
 nltk.download('stopwords')
 
 # Load dataset
-df = pd.read_csv('/content/news.csv')
+df = pd.read_csv('news.csv')
 print("Check for duplicates:", df.duplicated().sum())
 print("\nCheck for missing values:")
 print(df.isnull().sum())
